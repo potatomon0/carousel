@@ -27,12 +27,13 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+  border:solid red;
+  display:flex;
+  flex-direction:column;
+}
+.cardPic{
+  height:800px;
+  width:500px;
+  align-self: center;
 }
